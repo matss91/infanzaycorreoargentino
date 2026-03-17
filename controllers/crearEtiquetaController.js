@@ -3,7 +3,7 @@ const axios = require("axios");
 const comprarEtiqueta = async (req, res) => {
   try {
     const { rate_id } = req.body;
-
+console.log("--------------"+rate_id+"------------------")
     const response = await axios.post(
       `https://api.goshippo.com/transactions`,
       {
