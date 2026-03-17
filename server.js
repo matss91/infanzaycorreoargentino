@@ -19,6 +19,6 @@ app.use("/api/products", require("./routes/product.routes"));
 
 app.use("/api/cart", require("./routes/cart"));
 
-app.listen(3000, () => {
-  console.log("API corriendo en http://localhost:3000");
+app.listen(4000, () => {
+  console.log("API corriendo en http://localhost:4000");
 });
