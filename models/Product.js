@@ -6,11 +6,11 @@ const ProductSchema = new Schema({
   description: String,
   image: String,
   section:String,
-  length: Number,
-  width: Number,
-  height:Number,
-  distance_unit: String,
-  weight: Number,
+  length: String,
+  width: String,
+  height:String,
+  distance_unit:String,
+  weight: String,
   mass_unit: String
 });
 
